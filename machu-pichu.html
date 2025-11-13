@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="blog.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Mahal - Maravillas del Mundo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-titulo"><a href="blog.html">Maravillas del Mundo</a></li> 
+            <li><a href="blog.html">Inicio</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="feed">
+<article>
+  <h2>Machu Picchu</h2> 
+  <p>Publicado por <span class="autor">Ignacio Bruno</span> en Octubre de 2025</p>
+  <img src="imagenes/machu-pichu.webp" alt="Machu Picchu">
+
+  <p>
+    Machu Picchu, situada en lo alto de los Andes peruanos, fue una ciudad sagrada del Imperio Inca, construida alrededor del siglo XV por el emperador Pachacútec.
+  </p>
+  <p>
+    Abandonada durante la conquista española, fue redescubierta en 1911 por Hiram Bingham. 
+    Su arquitectura, perfectamente adaptada al entorno natural, demuestra los avanzados conocimientos de ingeniería y astronomía de los incas.
+  </p>
+
+  <h3>Historia</h3>
+  <p>
+    Machu Picchu fue construida durante el apogeo del Imperio Inca, probablemente como residencia real y centro religioso. 
+    Su ubicación estratégica, entre las montañas Machu Picchu y Huayna Picchu, le otorgaba un valor tanto espiritual como defensivo.
+  </p>
+  <p>
+    Aunque nunca fue descubierta por los conquistadores españoles, la ciudad cayó en el olvido hasta su redescubrimiento en 1911 por el explorador estadounidense Hiram Bingham, 
+    quien la dio a conocer al mundo como una de las mayores joyas arqueológicas de la humanidad.
+  </p>
+  <img src="imagenes/machu-historia.webp" alt="Historia">
+
+  <h3>Arquitectura</h3>
+  <p>
+    La ciudad se divide en dos zonas: la agrícola, formada por terrazas de cultivo, y la urbana, con templos, plazas y viviendas. 
+    Destacan el Templo del Sol, la Intihuatana (reloj solar) y el Templo de las Tres Ventanas, todos orientados de acuerdo con fenómenos astronómicos.
+  </p>
+  <p>
+    Los incas lograron un impresionante dominio de la piedra, uniendo enormes bloques sin el uso de mortero. 
+    Esta técnica permitió que las construcciones resistieran los frecuentes terremotos de la región.
+  </p>
+  <img src="imagenes/arq-machu.webp" alt="Arquitectura">
+
+  <h3>Turismo</h3>
+  <p>
+    Hoy, Machu Picchu es uno de los destinos turísticos más importantes del mundo y fue declarada Patrimonio de la Humanidad por la UNESCO en 1983. 
+    También forma parte de las Nuevas Siete Maravillas del Mundo Moderno.
+  </p>
+  <p>
+    Los visitantes pueden acceder desde Cusco a través del famoso Camino Inca o en tren hasta Aguas Calientes. 
+    Desde allí, se asciende hasta la ciudadela para disfrutar de vistas panorámicas únicas entre la niebla y las montañas andinas.
+  </p>
+  <img src="imagenes/turi-machu.webp" alt="Turismo">
+</article>
+
+        </section>
+
+     
+<aside>
+    <div class="aside1">
+        <h3>Sobre el Autor</h3>
+        <p>
+            ¡Hola! Soy Ignacio Bruno, estudiante de la Licenciatura en Sistemas en UADE.
+            Tengo 19 años y me apasiona viajar y descubrir las maravillas
+            que el mundo tiene para ofrecer.
+        </p>
+    </div>
+
+    <div class="aside1">
+        <h3>Entradas Destacadas</h3>
+        <ul class="lista-destacados">
+            <li><a href="chichenitza.html">Chichén Itzá</a></li>
+            <li><a href="murallachina.html">Muralla china </a></li>
+            <li><a href="tajmajal.html">Taj Mahal</a></li>
+            <li><a href="coliseo.html">El Coliseo Romano</a></li>
+            <li><a href="cristo.html">Cristo Redentor</a></li>
+            <li><a href="petra.html">Petra (Jordania)</a></li>
+            <li><a href="machu-pichu.html">Machu Picchu</a></li>
+        </ul>
+    </div>
+
+    <div class="aside1">
+        <h3>¡No te pierdas nada!</h3>
+        <p>Suscribite para recibir notificaciones de nuevas maravillas.</p>
+        
+        <form id="SubscriptionForm">
+            <label for="email-aside">Ingresar e-mail</label>
+            <input type="email" id="email-aside" name="email" placeholder="tu@email.com" required>
+            <button type="submit">Suscribirme</button>
+        </form>
+
+        <script>
+            document.getElementById('SubscriptionForm').addEventListener("submit", function(e) {
+                e.preventDefault(); 
+                alert("¡Gracias por subscribirte!");
+                this.reset();
+            });
+        </script>
+    </div>
+</aside>
+    </main>
+
+    <div class="volver-arriba">
+        <a href="#">Volver arriba</a>
+    </div>
+
+    <footer> 
+        <div id="columna1" class="columna"> 
+            <h3>Realizado por:</h3>
+            <p>Ignacio Bruno, estudiante de Licenciatura en Sistemas en UADE.</p>
+        </div>
+
+        <div id="columna2" class="columna"> 
+            <h3>Contacto</h3>
+            <ul>
+                <li>Gmail: ibruno@uade.edu.ar</li>
+                <li>Teléfono: 11 6221-4051</li>
+                <li> <a href="./index.html"> Linktree</a></li>
+            </ul>
+        </div>
+        
+        <div id="columna3" class="columna"> 
+            <h3>Redes</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/"><img src="imagenes/instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://workspace.google.com/intl/es-419_ar/gmail/"><img src="imagenes/gmail.png" alt="Gmail"></a></li>
+                <li><a href="https://www.whatsapp.com/?lang=es"><img src="imagenes/whatsapp.png" alt="Whatsapp"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('SubscriptionForm').addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("¡Gracias por suscribirte!");
+        });
+    </script>
+</body>
+</html>

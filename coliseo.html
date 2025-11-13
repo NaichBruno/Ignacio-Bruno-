@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="blog.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coliseo Romano - Maravillas del Mundo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav-titulo"><a href="blog.html">Maravillas del Mundo</a></li> 
+            <li><a href="blog.html">Inicio</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="feed">
+
+<article>
+  <h2>Coliseo Romano</h2>
+  <p>Publicado por <span class="autor">Ignacio Bruno</span> en Octubre de 2025</p>
+  <img src="imagenes/Coliseo romano.webp" alt="Coliseo Romano">
+
+  <p>
+    El Coliseo, también conocido como Anfiteatro Flavio, fue inaugurado en el año 80 d.C. y podía albergar hasta 50.000 espectadores.
+    Allí se realizaban combates de gladiadores, cacerías de animales exóticos, ejecuciones públicas y espectáculos recreativos,
+    incluyendo simulacros de batallas navales que se realizaban inundando la arena con agua.
+  </p>
+
+  <p>
+    Este imponente edificio es un símbolo de la ingeniería y la arquitectura romana, construido con piedra caliza, ladrillo y hormigón.
+    A pesar de los terremotos, incendios y saqueos sufridos a lo largo de los siglos, el Coliseo sigue siendo uno de los monumentos más
+    representativos del Imperio Romano y un ícono de Roma.
+  </p>
+
+  <img src="imagenes/hist.webp" alt="Historia del Coliseo Romano">
+
+  <h3>Historia</h3>
+  <p>
+    La construcción del Coliseo comenzó durante el mandato del emperador Vespasiano alrededor del año 72 d.C. y fue completada por su hijo Tito
+    en el año 80 d.C. Su nombre original, “Anfiteatro Flavio”, proviene de la dinastía de emperadores Flavios.
+    La inauguración fue celebrada con juegos que duraron más de 100 días, donde participaron miles de gladiadores y animales salvajes.
+  </p>
+
+  <p>
+    A lo largo del Imperio, el Coliseo fue el centro del entretenimiento romano y un espacio donde los emperadores ofrecían espectáculos gratuitos
+    para ganarse el apoyo del pueblo. Tras la caída del Imperio Romano, el anfiteatro fue abandonado, utilizado como cantera y refugio, hasta su
+    restauración durante el Renacimiento.
+  </p>
+
+  <img src="imagenes/arq1.webp" alt="Arquitectura del Coliseo Romano">
+
+  <h3>Arquitectura</h3>
+  <p>
+    El Coliseo tiene una forma elíptica, con 189 metros de largo, 156 de ancho y una altura cercana a los 50 metros.
+    Contaba con un avanzado sistema de pasillos, escaleras y salidas que permitían la entrada y evacuación rápida de decenas de miles de personas,
+    demostrando el ingenio arquitectónico de Roma.
+  </p>
+
+  <p>
+    En su interior, la arena estaba hecha de madera cubierta con arena, bajo la cual se encontraba el “hipogeo”,
+    un complejo sistema subterráneo de túneles y jaulas utilizado para mover animales, gladiadores y decorados durante los espectáculos.
+  </p>
+
+  <img src="imagenes/arq1.webp" alt="Turismo en el Coliseo Romano">
+
+  <h3>Turismo</h3>
+  <p>
+    En la actualidad, el Coliseo Romano es el monumento más visitado de Italia y uno de los sitios arqueológicos más reconocidos del mundo.
+    Cada año recibe millones de turistas que recorren sus gradas y galerías, imaginando los espectáculos que alguna vez tuvieron lugar allí.
+  </p>
+
+  <p>
+    En 1980 fue declarado Patrimonio de la Humanidad por la UNESCO y, al igual que el Taj Mahal,
+    fue elegido en 2007 como una de las Nuevas Siete Maravillas del Mundo.
+    Por la noche, su iluminación resalta las formas del anfiteatro, convirtiéndolo en una de las vistas más emblemáticas de Roma.
+  </p>
+    <img src="imagenes/turii.webp" alt="Turismo en el Coliseo Romano">
+</article>
+
+        </section>
+
+        <aside>
+            <div class="aside1">
+                <h3>Sobre el Autor</h3>
+                <p>
+                    ¡Hola! Soy Ignacio Bruno, estudiante de la Licenciatura en Sistemas en UADE.
+                    Tengo 19 años y me apasiona viajar y descubrir las maravillas
+                    que el mundo tiene para ofrecer.
+                </p>
+            </div>
+
+            <div class="aside1">
+                <h3>Entradas Destacadas</h3>
+                <ul class="lista-destacados">
+                    <li><a href="chichenitza.html">Chichén Itzá</a></li>
+                    <li><a href="murallachina.html">Muralla China</a></li>
+                    <li><a href="tajmajal.html">Taj Mahal</a></li>
+                    <li><a href="coliseo.html">El Coliseo Romano</a></li>
+                    <li><a href="cristo.html">Cristo Redentor</a></li>
+                    <li><a href="petra.html">Petra (Jordania)</a></li>
+                    <li><a href="machu-pichu.html">Machu Picchu</a></li>
+                </ul>
+            </div>
+
+            <div class="aside1">
+                <h3>¡No te pierdas nada!</h3>
+                <p>Suscribite para recibir notificaciones de nuevas maravillas.</p>
+                
+                <form id="SubscriptionForm">
+                    <label for="email-aside">Ingresar e-mail</label>
+                    <input type="email" id="email-aside" name="email" placeholder="tu@email.com" required>
+                    <button type="submit">Suscribirme</button>
+                </form>
+
+                <script>
+                    document.getElementById('SubscriptionForm').addEventListener("submit", function(e) {
+                        e.preventDefault(); 
+                        alert("¡Gracias por suscribirte!");
+                        this.reset();
+                    });
+                </script>
+            </div>
+        </aside>
+    </main>
+
+    <div class="volver-arriba">
+        <a href="#">Volver arriba</a>
+    </div>
+
+    <footer> 
+        <div id="columna1" class="columna"> 
+            <h3>Realizado por:</h3>
+            <p>Ignacio Bruno, estudiante de Licenciatura en Sistemas en UADE.</p>
+        </div>
+
+        <div id="columna2" class="columna"> 
+            <h3>Contacto</h3>
+            <ul>
+                <li>Gmail: ibruno@uade.edu.ar</li>
+                <li>Teléfono: 11 6221-4051</li>
+                <li> <a href="./index.html"> Linktree</a></li>
+            </ul>
+        </div>
+        
+        <div id="columna3" class="columna"> 
+            <h3>Redes</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/"><img src="imagenes/instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://workspace.google.com/intl/es-419_ar/gmail/"><img src="imagenes/gmail.png" alt="Gmail"></a></li>
+                <li><a href="https://www.whatsapp.com/?lang=es"><img src="imagenes/whatsapp.png" alt="Whatsapp"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

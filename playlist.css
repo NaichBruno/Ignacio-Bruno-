@@ -1,0 +1,94 @@
+body,html {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ nav ul {
+    text-align: center;
+    background-color:rgba(36, 69, 161, 0.935);
+    height: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width:100px ;
+    height: 50px;
+}
+
+nav ul li a {
+    background-color: rgb(62, 137, 174);
+    color: white;
+    text-decoration: none;
+    display: inline;
+    line-height: 50px;
+    padding: 5px 20px;
+}
+
+        .container {
+            background-color: rgb(27, 116, 185);
+            text-align: center;
+        }
+ 
+        aside {
+            background-color: rgb(27, 116, 185);
+            display: inline-block;
+            width: 25%;
+            height: 100%;
+        }
+ 
+        main {
+            background-color:#2d5891;
+            display: inline-block;
+            width: 60%;
+            height: 100%;
+            vertical-align: top;
+        }
+
+        aside ul li {
+            display: inline-block;
+            width: 100%;
+        }
+
+
+
+
+        aside ul li a{
+            display: block;          
+            width: 100%;               
+            box-sizing: border-box;    
+            background-color: #010a2c;
+            color: white;
+            padding: 40px;
+            border-radius: 20px 10px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 10px;       
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            height: 20vh;
+        }
+
+        .columna {
+            display: inline-block;
+            border: 2px solid rgb(255, 252, 252);
+            width: 25vw;
+        }
+
+        footer .volver-arriba {
+            margin-top: 20px;
+            text-align: center; 
+        }
+        footer a, p, h3{
+            color: white;
+        }

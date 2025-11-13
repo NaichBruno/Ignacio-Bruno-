@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: url(imagenes/fondo-campeon.webp);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: #639EEB;
+    height: 100%;
+}
+
+h1, li, h2 {
+    color: white;
+    text-align: left;
+}
+
+
+table{
+background-color: rgb(0, 0, 0,0.6);
+
+}
+
+nav ul {
+    text-align: right;
+    background-color: rgba(36, 69, 161, 0.935);
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width:100px ;
+    height: 50px;
+    margin: top 0;
+}
+
+nav li a {
+    background-color: rgb(62, 137, 174);
+    color: white;
+    text-decoration: none;
+    display: inline;
+    line-height: 50px;
+    padding: 5px 20px;
+    margin: top 0;
+}
+
+footer {
+    background-color: #639EEB;
+    text-align: center;
+    height: 25vh;
+}
+
+
+footer .volver-arriba {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+footer #columna2 p {
+width:220px ;
+}
+
+footer .columna {
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+    width: 20vw;
+    padding: 20px;
+}
